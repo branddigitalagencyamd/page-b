@@ -7,11 +7,11 @@
     {
       "binding": "DB",
       "database_name": "page",
-      "database_id": ""
+      "database_id": "541f0ea8-6810-485c-b655-2092252f8e85"
     }
   ],
   "vars": {
-    "JWT_SECRET": "",
+    "JWT_SECRET": "541f0ea8-6810-485c-b655-2092252f8e85",
     "APP_ENV": "development"          
   }
 }
