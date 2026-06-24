@@ -7,11 +7,11 @@
     {
       "binding": "DB",
       "database_name": "page",
-      "database_id": "632ed604-4002-4b7a-ac28-a8b6d928d75c"
+      "database_id": ""
     }
   ],
   "vars": {
-    "JWT_SECRET": "super-secret-key-miniweb",
+    "JWT_SECRET": "",
     "APP_ENV": "development"          
   }
 }
