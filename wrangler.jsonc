@@ -1,0 +1,17 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "page",
+  "main": "src/index.ts",
+  "compatibility_date": "2025-10-31",
+  "d1_databases": [
+    {
+      "binding": "DB",
+      "database_name": "page",
+      "database_id": "632ed604-4002-4b7a-ac28-a8b6d928d75c"
+    }
+  ],
+  "vars": {
+    "JWT_SECRET": "super-secret-key-miniweb",
+    "APP_ENV": "development"          
+  }
+}

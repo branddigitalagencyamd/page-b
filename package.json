@@ -1,0 +1,23 @@
+{
+  "name": "backend",
+  "type": "module",
+  "scripts": {
+    "dev": "wrangler dev",
+    "deploy": "wrangler deploy --minify",
+    "cf-typegen": "wrangler types --env-interface CloudflareBindings"
+  },
+  "dependencies": {
+    "drizzle-orm": "^0.44.7",
+    "hono": "^4.10.4",
+    "jose": "^6.1.0",
+    "razorpay": "^2.9.6",
+    "uploadthing": "^7.7.4",
+    "uuid": "^13.0.0"
+  },
+  "devDependencies": {
+    "@cloudflare/workers-types": "^4.20251014.0",
+    "drizzle-kit": "^0.31.6",
+    "typescript": "^5.9.3",
+    "wrangler": "^4.4.0"
+  }
+}
